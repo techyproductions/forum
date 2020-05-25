@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import HomeBackground from './Components/HomeBackground/HomeBackground';
+
 function App() {
   return (
     <div className="App">
-      <p>Hello React</p>
+      <HomeBackground></HomeBackground>
     </div>
   );
 }

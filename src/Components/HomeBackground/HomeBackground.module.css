@@ -1,0 +1,7 @@
+.BG {
+    background-image: url("../../Assets/background_forum.jpg");
+    background-repeat: no-repeat;
+    height: 1080px;
+    background-position: center;
+    background-size: cover;
+}
