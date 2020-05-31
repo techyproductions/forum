@@ -1,0 +1,43 @@
+.Nav {
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 25px 100px;
+    /*box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.10);*/
+}
+
+.NavRight {
+    float: right;
+}
+
+.NavLink {
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 7px;
+    padding-left: 50px;
+}
+
+.NavLink:hover {
+    cursor: pointer;
+}
+
+.NavLink:hover + .Dot {
+    visibility: visible;
+}
+
+.Dot {
+    visibility: hidden;
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+    .NavRight {
+        float: none;
+    }
+}
