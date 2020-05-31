@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './App.module.css';
 
-import HomeBackground from './Components/HomeBackground/HomeBackground';
-import NavBar from './Components/NavBar/NavBar';
-import Login from './Components/Login/Login';
+import HomeBackground from '../HomeBackground/HomeBackground';
+import NavBar from '../NavBar/NavBar';
+import Login from '../Login/Login';
 
 function App() {
     return (
