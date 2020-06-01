@@ -37,6 +37,10 @@
   }
 }
 
+.LoginTopPad {
+    padding-top: 1.5em;
+}
+
 .Center {
     text-align: center;
     display: inline-block;

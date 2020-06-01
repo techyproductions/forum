@@ -10,7 +10,7 @@ function App() {
         <div className={classes.App}>
             <NavBar />
             <HomeBackground />
-            <div className={classes.Center}>
+            <div className={classes.Center + " " + classes.LoginTopPad}>
                 <Login></Login>
             </div>
         </div>
