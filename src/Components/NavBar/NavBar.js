@@ -15,8 +15,8 @@ class NavBar extends Component {
                 <Navbar.Brand href="#home">Logo</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Courses</Nav.Link>
-                    <Nav.Link href="#pricing">Forum</Nav.Link>
+                    <Nav.Link href="#courses">Courses</Nav.Link>
+                    <Nav.Link href="#forum">Forum</Nav.Link>
                 </Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" />
